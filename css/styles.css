@@ -7,6 +7,7 @@
   --section-color: #f5f4fa;
   --logo-dark-color: #000000;
   --button-h-f-color: #188ce8;
+  --secondary-white-color: color: rgba(255, 255, 255, 0.6);
 }
 body {
   color: var(--color-primary);
@@ -31,7 +32,7 @@ body {
 .site-naw .naw-link:focus {
   color: var(--color-brand);
 }
-.site-naw .link-current {
+.site-naw .link.current {
   color: var(--color-brand);
 }
 
@@ -73,6 +74,7 @@ body {
   margin: -1px;
 }
 /* benefits section*/
+/* .benefits-list{} */
 .benefits-title {
   color: var(--main-title-color);
 }
@@ -94,24 +96,31 @@ body {
 .footer {
   background-color: var(--background-accent);
 }
+.address .link{
+  color: var(--main-white-color);
+}
+.address .address-link {
+  color: var(--secondary-white-color);
+}
 .logo-light {
   color: var(--main-white-color);
 }
-.adress .link {
-  color: var(--main-white-color);
-  /* font-style: inherit; */
-}
-.adress .link:hover,
-.adress .link:focus {
-  color: var(--color-brand);
-}
+
 
 /* portfolio */
 .portfolio-button {
   color: var(--main-title-color);
   background-color: var(--section-color);
 }
-.button-current {
+.button.current {
   color: var(--main-white-color);
   background-color: var(--color-brand);
+}
+
+.portfolio-list .link {
+  color: var(--color-primary);
+}
+
+.portfolio-title {
+  color: var(--main-title-color);
 }
