@@ -1,67 +1,64 @@
 :root {
   --color-primary: #757575;
-  --color-secondary: #212121;
+  --main-title-color: #212121;
   --color-brand: #2196f3;
-  --white-color: #ffffff;
+  --main-white-color: #ffffff;
   --background-accent: #2f303a;
   --section-color: #f5f4fa;
+  --logo-dark-color: #000000;
+  --button-h-f-color: #188ce8;
 }
 body {
   color: var(--color-primary);
-  background-color: var(--white-color);
-  font-size: 16px;
-}
-.list {
-  list-style: none;
+  background-color: var(--main-white-color);
+  /* font-size: 16px; */
 }
 
 .logo {
   color: var(--color-brand);
 }
+
 .logo-dark {
-  color: #000000;
+  color: var(--logo-dark-color);
 }
 /* site naw */
 
-.site-naw .link {
-  color: var(--color-secondary);
+.site-naw .naw-link {
+  color: var(--main-title-color);
 }
 
-.site-naw .link:hover,
-.site-naw .link:focus {
+.site-naw .naw-link:hover,
+.site-naw .naw-link:focus {
+  color: var(--color-brand);
+}
+.site-naw .link-current {
   color: var(--color-brand);
 }
 
-.contacts-link {
-  color: inherit;
+.contacts .cnt-link {
+  color: var(--color-primary);
 }
-.contacts-link :hover,
-.contacts-link :focus {
-  color: var(--color-brand);
-}
-.link {
-  text-decoration: none;
-}
-.link:current {
+.contacts .cnt-link:hover,
+.contacts .cnt-link:focus {
   color: var(--color-brand);
 }
 
 /* hero */
 .hero {
-  color: var(--white-color);
+  color: var(--main-white-color);
   background-color: var(--background-accent);
 }
 .button {
-  color: var(--white-color);
+  color: var(--main-white-color);
   background-color: var(--color-brand);
 }
 .button :hover,
-.button :hover {
-  background-color: #188ce8;
+.button :focus {
+  background-color: var(--button-h-f-color);
 }
 /* sections */
 .section-title {
-  color: var(--color-secondary);
+  color: var(--main-title-color);
 }
 .visually-hidden {
   position: absolute;
@@ -77,28 +74,44 @@ body {
 }
 /* benefits section*/
 .benefits-title {
-  color: var(--color-secondary);
+  color: var(--main-title-color);
 }
 
 /* team section*/
 .team-list {
-  color: var(--color-secondary);
+  color: var(--main-title-color);
 }
+
 .section-team {
   background-color: var(--section-color);
 }
+
+.team-folder {
+  background-color: var(--main-white-color);
+}
+
 /* footer */
 .footer {
   background-color: var(--background-accent);
 }
 .logo-light {
-  color: var(--white-color);
+  color: var(--main-white-color);
 }
 .adress .link {
-  color: var(--white-color);
+  color: var(--main-white-color);
   /* font-style: inherit; */
 }
 .adress .link:hover,
 .adress .link:focus {
   color: var(--color-brand);
+}
+
+/* portfolio */
+.portfolio-button {
+  color: var(--main-title-color);
+  background-color: var(--section-color);
+}
+.button-current {
+  color: var(--main-white-color);
+  background-color: var(--color-brand);
 }
