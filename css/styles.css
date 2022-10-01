@@ -9,36 +9,65 @@
   --button-h-f-color: #188ce8;
   --secondary-white-color: color: rgba(255, 255, 255, 0.6);
 }
+
 body {
   color: var(--color-primary);
   background-color: var(--main-white-color);
-  /* font-size: 16px; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none
 }
 
 .logo {
   color: var(--color-brand);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
+
 
 .logo-dark {
   color: var(--logo-dark-color);
 }
+
 /* site naw */
 
 .site-naw .naw-link {
   color: var(--main-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-naw .naw-link:hover,
 .site-naw .naw-link:focus {
   color: var(--color-brand);
 }
+
 .site-naw .link.current {
   color: var(--color-brand);
 }
 
 .contacts .cnt-link {
   color: var(--color-primary);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+
 }
+
 .contacts .cnt-link:hover,
 .contacts .cnt-link:focus {
   color: var(--color-brand);
@@ -48,19 +77,36 @@ body {
 .hero {
   color: var(--main-white-color);
   background-color: var(--background-accent);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
-.button {
+
+.hero-button {
   color: var(--main-white-color);
   background-color: var(--color-brand);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
-.button :hover,
-.button :focus {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--button-h-f-color);
 }
+
 /* sections */
-.section-title {
-  color: var(--main-title-color);
+.section {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -73,35 +119,76 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* benefits section*/
-/* .benefits-list{} */
+
+/* benefits */
 .benefits-title {
   color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* example */
+.example-title {
+  color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 /* team section*/
-.team-list {
-  color: var(--main-title-color);
-}
-
 .section-team {
   background-color: var(--section-color);
+}
+
+.team-title {
+  color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .team-folder {
   background-color: var(--main-white-color);
 }
 
+.team-list {
+  color: var(--main-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
 /* footer */
 .footer {
   background-color: var(--background-accent);
 }
-.address .link{
-  color: var(--main-white-color);
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
+
+.address .link {
+  color: var(--main-white-color);
+  font-style: normal;
+}
+
 .address .address-link {
   color: var(--secondary-white-color);
 }
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--color-brand);
+}
+
 .logo-light {
   color: var(--main-white-color);
 }
@@ -111,7 +198,20 @@ body {
 .portfolio-button {
   color: var(--main-title-color);
   background-color: var(--section-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--main-white-color);
+  background-color: var(--color-brand);
+}
+
 .button.current {
   color: var(--main-white-color);
   background-color: var(--color-brand);
@@ -119,8 +219,16 @@ body {
 
 .portfolio-list .link {
   color: var(--color-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-title {
   color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
