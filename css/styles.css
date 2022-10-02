@@ -60,7 +60,6 @@ body {
 
 .contacts .cnt-link {
   color: var(--color-primary);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -75,12 +74,16 @@ body {
 
 /* hero */
 .hero {
-  color: var(--main-white-color);
   background-color: var(--background-accent);
+}
+
+.hero-title {
+  color: var(--main-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -101,7 +104,6 @@ body {
 
 /* sections */
 .section {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -123,19 +125,19 @@ body {
 /* benefits */
 .benefits-title {
   color: var(--main-title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* example */
 .example-title {
   color: var(--main-title-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* team section*/
@@ -145,10 +147,10 @@ body {
 
 .team-title {
   color: var(--main-title-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .team-folder {
@@ -169,7 +171,6 @@ body {
 }
 
 .address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -219,7 +220,6 @@ body {
 
 .portfolio-list .link {
   color: var(--color-primary);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -227,8 +227,8 @@ body {
 
 .portfolio-title {
   color: var(--main-title-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
