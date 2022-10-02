@@ -137,7 +137,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 /* team section*/
@@ -150,7 +149,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .team-folder {
@@ -230,5 +228,4 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
